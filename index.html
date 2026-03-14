@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Esteban Rojas - Portfolio</title>
+  </head>
+  <body>
+    <div class="main">
+      <nav class="nav">
+        <a class="logo-text" href="#">Esteban Rojas</a>
+        <div class="links">
+          <i class="fa-solid fa-circle-half-stroke click" id="theme-icon"></i>
+          <a class="link active" href="#">Hi</a>
+          <a class="link" href="#projects">Projects</a>
+          <a class="link" href="#about">About</a>
+        </div>
+      </nav>
+      <div class="hero" id="hi">
+        <div class="hero-details">
+          <p class="greetings">Hey, I'm Esteban👋🏻</p>
+          <p class="big-text">
+            <span class="colored-text">Full</span>stack
+            <span class="colored-text">Dev</span>eloper
+          </p>
+          <p class="detail-text">
+            I'm a fullstack developer based in Chile (🇨🇱), i'll help you build
+            solutions and web apps.
+          </p>
+          <div class="btns">
+            <a class="btn-primary" href="#">Get in Touch</a>
+            <a class="btn-secondary" href="#projects">Browse Projects</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="profile2.webp" alt="" class="profile-img" />
+        </div>
+      </div>
+      <div class="section" id="projects">
+        <p class="title">Projects<span class="colored-text">.</span></p>
+        <div class="box">
+          <div class="project">
+            <img src="menu1.webp" class="project-img" />
+            <img src="menu2.webp" class="project-img" />
+            <p class="project-title">
+              MenuQR<span class="colored-text">.</span>
+            </p>
+            <p class="project-description">
+              Solving the rigidity of paper menus through a Cloud-Native SaaS
+              platform. Using Node.js, React, and Google Firebase, I built a
+              system where restaurant owners can update prices and stock
+              instantly across all digital touchpoints. It features a responsive
+              PWA interface for customers and a robust management suite for
+              administrators.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="about">
+        <p class="title">About<span class="colored-text"> me.</span></p>
+        <div class="box">
+          <p class="about-header-text">
+            Professional Analyst Programmer graduated from INACAP. I am
+            dedicated to delivering high-quality software while continuously
+            mastering the latest industry standards and English communication
+            for global environments.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
