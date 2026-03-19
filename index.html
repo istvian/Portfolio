@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es" data-theme="dark">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +10,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <title>Esteban Rojas - Dev</title>
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="Portfolio of Esteban Rojas, an Analyst Programmer from INACAP. Passionate about building scalable web applications and efficient software solutions using modern technologies."
+    />
     <meta
       property="og:title"
       content="Esteban Rojas | Analyst Programmer Portfolio"
@@ -24,20 +27,21 @@
       content="https://istvian.github.io/Portfolio/img/profile.webp"
     />
     <meta property="og:url" content="https://istvian.github.io/Portfolio" />
-    <meta name="robots" content="noindex, nofollow" />
   </head>
   <body>
     <div class="main">
       <nav class="nav">
-        <a class="logo-text" href="#">Esteban Rojas</a>
+        <a class="logo-text" href="#"
+          >Esteban Rojas <i class="fa-solid fa-code"></i
+        ></a>
         <div class="links">
           <i class="fa-solid fa-circle-half-stroke click" id="theme-icon"></i>
-          <a class="link active" href="#">Hi</a>
+          <a class="link" href="#">Hi</a>
           <a class="link" href="#projects">Projects</a>
           <a class="link" href="#about">About</a>
         </div>
       </nav>
-      <div class="hero" id="hi">
+      <main class="hero" id="hi">
         <div class="hero-details">
           <p class="greetings">Hey, I'm Esteban👋🏻</p>
           <p class="big-text">
@@ -45,24 +49,53 @@
             <span class="colored-text">Dev</span>eloper
           </p>
           <p class="detail-text">
-            I'm a fullstack developer based in Chile (🇨🇱), i'll help you build
-            solutions and web apps.
+            I build scalable web applications and high-performance solutions
+            using <span class="colored-text">MERN</span> Stack (MongoDB,
+            Express, React, and Node.js.) Based in Chile, working globally.
           </p>
           <div class="btns">
-            <a class="btn-primary" href="#">Get in Touch</a>
-            <a class="btn-secondary" href="#projects">Browse Projects</a>
+            <a
+              class="btn-primary"
+              href="https://www.linkedin.com/in/esteban-rojas-903080221/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Get in Touch <i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a class="btn-secondary" href="#projects"
+              >Browse Projects <i class="fa-solid fa-briefcase"></i
+            ></a>
           </div>
         </div>
         <div class="hero-img">
-          <img src="img/profile.webp" alt="" class="profile-img" />
+          <img
+            src="img/profile.webp"
+            alt="Esteban Rojas black and white photo profile image"
+            class="profile-img"
+            width="200px"
+            height="200px"
+          />
         </div>
-      </div>
-      <div class="section" id="projects">
-        <p class="title">Projects<span class="colored-text">.</span></p>
+      </main>
+      <section class="section" id="projects">
+        <p class="title">
+          <span class="letter">P</span><span class="letter">r</span
+          ><span class="letter">o</span><span class="letter">j</span
+          ><span class="letter">e</span><span class="letter">c</span
+          ><span class="letter">t</span><span class="letter">s</span
+          ><span class="letter">.</span>
+        </p>
         <div class="box">
           <div class="project">
-            <img src="img/proyects/menu1.webp" class="project-img" />
-            <img src="img/proyects/menu2.webp" class="project-img" />
+            <img
+              src="img/proyects/menu1.webp"
+              class="project-img"
+              alt="Screenshot of Menu QR web app"
+            />
+            <img
+              src="img/proyects/menu2.webp"
+              class="project-img"
+              alt="Screenshot of Menu QR web app admin panel"
+            />
             <p class="project-title">
               MenuQR<span class="colored-text">.</span>
             </p>
@@ -73,21 +106,134 @@
               instantly across all digital touchpoints. It features a responsive
               PWA interface for customers and a robust management suite for
               administrators.
+              <br /><br />
+              <strong> Technologies </strong>
+              <br />
+              - Firebase
+              <br />
+              - React JS
+              <br />
             </p>
           </div>
         </div>
-      </div>
-      <div class="section" id="about">
-        <p class="title">About<span class="colored-text"> me.</span></p>
         <div class="box">
-          <p class="about-header-text">
-            Professional Analyst Programmer graduated from INACAP. I am
-            dedicated to delivering high-quality software while continuously
-            mastering the latest industry standards and English communication
-            for global environments.
-          </p>
+          <div class="project-big">
+            <img
+              src="img/proyects/pulpa1.webp"
+              class="project-img"
+              alt="Screenshot of Pulpa App web app"
+            />
+            <img
+              src="img/proyects/pulpa2.webp"
+              class="project-img"
+              alt="Screenshot of Pulpa App web app items list"
+            />
+            <p class="project-title">
+              Pulpa App<span class="colored-text">.</span>
+            </p>
+
+            <p class="project-description">
+              Pulpa App is a specialized mobile-first platform developed for a
+              client at CMPC (one of the world's largest pulp and paper
+              companies from Chile) to streamline the monitoring and control of
+              industrial machinery and motors within their manufacturing plants.
+              The application addresses the challenge of real-time data
+              accessibility in the field, replacing manual processes with a
+              digital ecosystem.
+              <br /><br />
+              <strong>Key Features</strong>
+              <br />
+              <br />
+              - <strong>Mobile-First Design:</strong> Optimized for field
+              workers, ensuring high performance and usability on mobile devices
+              in industrial environments.
+            </p>
+            <p class="project-description-bottom-1">
+              - <strong>QR Code Integration:</strong> Automatically generates
+              unique QR codes for each machine. Workers can scan these tags
+              on-site to instantly access technical specifications and
+              maintenance history.
+            </p>
+            <p class="project-description-bottom-2">
+              - <strong>Data Portability:</strong> Includes a robust reporting
+              feature that exports real-time information to Excel for
+              administrative analysis and auditing.
+            </p>
+            <p class="project-description-bottom-3">
+              - <strong>Centralized Documentation:</strong> Allows users to
+              attach direct links or specific files (manuals, schematics) to
+              each machine entry for quick reference.
+            </p>
+          </div>
         </div>
-      </div>
+        <p class="text">Want to see more of my work? Let’s connect!</p>
+      </section>
+      <section class="section" id="about">
+        <p class="title">
+          <span class="letter">A</span><span class="letter">b</span
+          ><span class="letter">o</span><span class="letter">u</span
+          ><span class="letter">t</span>_<span class="letter">m</span
+          ><span class="letter">e</span><span class="letter">.</span>
+        </p>
+        <div class="box">
+          <div class="about-container">
+            <p class="about-header-text">
+              Analyst Programmer student from INACAP. I am dedicated to
+              delivering high-quality software while continuously mastering the
+              latest industry standards and English communication for global
+              environments.
+            </p>
+            <h2>Professional Profile</h2>
+            <p class="text-box">
+              Currently in my 3rd semester of
+              <strong>Programmer Analyst</strong> at INACAP, focusing on
+              building scalable web solutions and mastering cloud architecture.
+            </p>
+
+            <h3>Core Tech Stack</h3>
+            <ul class="text-box">
+              <li>
+                <strong>Frontend:</strong> React.js (Vite), JavaScript (ES6+),
+                HTML5/CSS3
+              </li>
+              <li><strong>Backend:</strong> Node.js, Express</li>
+              <li><strong>Database:</strong> MongoDB (MERN Stack)</li>
+              <li><strong>Security:</strong> JWT Authentication</li>
+              <li>
+                <strong>Mobile:</strong> React Native (Initial/Foundational)
+              </li>
+            </ul>
+            <h3>Certification Path (In Progress)</h3>
+            <div class="text-box">
+              <div class="cert-item">
+                <span class="status-badge">Learning</span>
+                <p>GitHub Foundations</p>
+              </div>
+              <div class="cert-item">
+                <span class="status-badge">Learning</span>
+                <p>AWS Certified Cloud Practitioner</p>
+              </div>
+              <div class="cert-item">
+                <span class="status-badge">Learning</span>
+                <p>MongoDB Associate Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <a
+          class="btn-primary"
+          href="mailto:e.r94@outlook.cl"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Contact me <i class="fa-solid fa-envelope-open"></i
+        ></a>
+        <p class="text">
+          Hand-coded with precision. Built using pure HTML and CSS without AI
+          generation.
+        </p>
+      </footer>
     </div>
     <script type="module" src="js/app.js"></script>
   </body>
